@@ -1,0 +1,229 @@
+@import url('https://v1.fontapi.ir/css/Yekan');
+@import url('https://v1.fontapi.ir/css/Vazir:100@900');
+
+*{
+
+    direction: rtl;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+
+        background-image: url(img/Screenshot\ 2024-10-13\ 171201.png);
+}
+
+/* start header */
+
+header {
+    width: 70%;
+    height: 80px;
+    border-radius: 20px;
+    margin: -28px 225px;
+}
+
+nav {
+    margin: 50px 426px;
+    width: 900px;
+}
+
+nav li{
+
+    float: right;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 75px;
+
+}
+
+nav > ul > li > a{
+
+    font-family: Yekan, sans-serif;
+    color: #fff;
+    text-decoration: none; 
+    position: relative; 
+    transition: all 0.4s ease;
+}
+
+nav>ul>li:hover>a {
+
+    font-family: Yekan, sans-serif;
+    color: #ffb400;
+    text-decoration: none;
+    position: relative;
+}
+
+nav>ul>li>a::before{
+
+    position: absolute;
+    content: '';
+    bottom: -27px;
+    left: 0;
+    background: #ffb400;
+    width: 0%;
+    height: 4px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+
+}
+nav>ul>li>a::before{
+
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+nav>ul>li:hover>a::before{
+
+    width: 100%;
+}
+
+
+
+
+
+
+/* end header */
+
+/* search box */
+
+#search {
+    margin: 292px 659px;
+    background-color: #363636;
+    width: 28%;
+    height: 200px;
+    position: fixed;
+    border-radius: 40px;
+    justify-content: center;
+    display: none;
+    transition: 0.4s;
+}
+
+#search div {
+
+    margin-top: 20px;
+}
+
+#search form {
+    margin: 53px 159px;
+}
+
+input {
+
+    font-family: Vazir, sans-serif;
+    padding: 8px;
+    width: 98%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #5c5c5c;
+    display: flex;
+    flex-direction: column;
+
+}
+
+input::placeholder {
+
+    color: #bbbbbb;
+}
+
+#search>form>div>a {
+
+    background: #811212;
+    padding: 6px 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: Vazir, sans-serif;
+}
+#search>form>div>button {
+
+    background: #23720a;
+    padding: 6px 10px;
+    color: #fff;
+    border-radius: 10px;
+    font-family: Vazir, sans-serif;
+    outline: none;
+    border: none;
+
+}
+
+#search a,
+#search button {
+
+    margin-right: 32px;
+}
+
+#search>form {
+
+    width: 100%;
+}
+
+#search:target{
+
+    display: flex;
+    transition: 0.4s;
+}
+
+
+
+/* end search box */
+
+
+
+.imgamir {
+    margin: 131px 1276px;
+    width: 493px;
+    height: 684px;
+    border-radius: 16px;
+    position: absolute;
+    box-shadow: 0px 0px 11px 8px #000000;
+}
+
+.content {
+    margin: 241px 254px;
+}
+
+
+
+.content>p{
+
+    color: #fff;
+    font-family:  Yekan, sans-serif;
+    font-size: 20px;
+    width: 700px;
+    text-align: justify;
+}
+
+
+span{
+
+    font-size: 50px;
+    color:#ffb400;
+    font-family: Vazir, sans-serif;
+
+}
+
+.social>img{
+
+    width: 55px;
+    height: 60px;
+    transition: 0.4s;
+
+}
+
+.social>img:hover{
+
+    filter: drop-shadow(0px 0px 9px  #ffb400);
+        transition: 0.4s;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    margin: -494px 16px;
+}
+
+
